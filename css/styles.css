@@ -598,6 +598,8 @@ h1 {
 .form_ini {
   padding-left: 21px;
   border-radius: 4px;
+  max-height: 100px;
+  max-width: 445px;
   cursor: pointer;
   border: solid var(--letter-color) 1px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -640,8 +642,6 @@ h1 {
   background-color: #2f303a;
 }
 .suscribirse_button {
-  width: 200px;
-  height: 50px;
   background-color: var(--brand-color);
   color: var(--color-white);
   cursor: pointer;
@@ -652,6 +652,13 @@ h1 {
   border: none;
   border-radius: 4px;
   font-family: roboto, sans-serif;
+  display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  padding: 10px 40px;
+}
+.footer__form {
+  display: flex;
+  gap: 20px;
 }
